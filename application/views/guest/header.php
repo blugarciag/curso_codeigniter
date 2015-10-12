@@ -235,7 +235,7 @@
             $(".table-contenedor_json").append('<tr><td>Matricula</td><td>Nombre</td><td>Apellidos</td><td>Correo</td><td>Foto de Perfil</td></tr>');
             $.each(result, function(i, val){
                 
-                $(".table-contenedor_json").append('<tr><td>Matricula:</td><td>Nombre:</td><td>Apellidos:</td><td>Correo:</td><td>Foto de Perfil:</td></tr><tr><td>' + val.matricula + '</td>' + '<td>' + val.nombre + '</td>' + '<td>' + val.apellidos + '</td>' + '<td>' + val.email + '</td>' + '<td><img src=http://localhost:8081/proyecto/uploads/' + val.ruta + ' width=50></td></tr>');
+                $(".table-contenedor_json").append('<tr><td>Matricula:</td><td>Nombres:</td><td>Apellidos:</td><td>Correo:</td><td>Foto de Perfil:</td></tr><tr><td>' + val.matricula + '</td>' + '<td>' + val.nombre + '</td>' + '<td>' + val.apellidos + '</td>' + '<td>' + val.email + '</td>' + '<td><img src=http://localhost:8081/proyecto/uploads/' + val.ruta + ' width=50></td></tr>');
                 
 
             });
