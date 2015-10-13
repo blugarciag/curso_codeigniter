@@ -16,7 +16,7 @@ class login_model extends CI_Model
           return $query->num_rows();
      }
 
-     function insert_data($mat, $nom, $apellidos, $email, $password, $filee)
+     function insert_data($mat, $nom, $apellidos, $email, $password, $file)
      {    
           $sql = "select * from datos_alumno where email = '" . $email . "';";
           $query2 = $this->db->query($sql);
@@ -27,7 +27,7 @@ class login_model extends CI_Model
           }
           else
           {
-               $sql = "INSERT INTO datos_alumno values  ('$mat','$nom','$apellidos','$email','$password', '$filee');";
+               $sql = "INSERT INTO datos_alumno values  ('$mat','$nom','$apellidos','$email','$password', '$file');";
                $query = $this->db->query($sql);                
                return 2; 
           }
