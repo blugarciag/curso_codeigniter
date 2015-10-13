@@ -194,7 +194,7 @@
 						<?=form_open_multipart('home/do_upload');?>
 							<div class="form-group">
 						    
-						    <input type="text" class="form-control" id="" name="matricula" placeholder="Matricula" required>
+						    <input type="text" class="form-control" id="" name="matricula" placeholder="Matricula:" required>
 						  </div>
 						  <div class="form-group">
 						    
