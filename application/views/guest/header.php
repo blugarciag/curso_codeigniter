@@ -198,19 +198,19 @@
 						  </div>
 						  <div class="form-group">
 						    
-						    <input type="text" class="form-control" id="" name="nombre" placeholder="Nombre" required>
+						    <input type="text" class="form-control" id="" name="nombre" placeholder="Nombre:" required>
 						  </div>
 						   <div class="form-group">
 						    
-						    <input type="text" class="form-control" id="" name="apellidos" placeholder="Apellidos" required>
+						    <input type="text" class="form-control" id="" name="apellidos" placeholder="Apellidos:" required>
 						  </div>
 						   <div class="form-group">
 						    
-						    <input type="email" class="form-control" id="" name="correo" placeholder="Email" required>
+						    <input type="email" class="form-control" id="" name="correo" placeholder="Email:" required>
 						  </div>
 						  <div class="form-group">
 						    
-						    <input type="password" class="form-control" id="" name="password2" placeholder="Password" required>
+						    <input type="password" class="form-control" id="" name="password2" placeholder="Password:" required>
 						  </div>
 							<input type="file" name="userfile" size="20" required />
 							<br /><br />
